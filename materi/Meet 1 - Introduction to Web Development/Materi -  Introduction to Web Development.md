@@ -37,20 +37,20 @@
 Biasakan untuk meng-organisir project kalian ke folder nya tersendiri supaya rapih. 
 
 Misalnya disini, kita bikin folder namanya `first-website` di `/Documents/Ngoding/`. Jangan lupa untuk pastikan nama folder/file kalian mengikuti konvensi penamaan file (Baca disini -> https://josephpinder.com/blog/file-naming-conventions-for-web-developers/)
-![[bikin-folder-baru.png]]
+![Bikin folder baru](../../foto/meet1/bikin-folder-baru.png)
 
 ## 2. Buka folder tadi di vscode
 - Buka vscode
-- Di pojok kiri atas, klik `File` -> `Open Folder...` ![[vscode-open-folder.png]]
+- Di pojok kiri atas, klik `File` -> `Open Folder...` ![open folder](vscode-open-folder.png)
 - Navigasi ke folder yang tadi dibuat 
-- Kalau berhasil, harusnya tertulis nama folder kalian, kayak di foto ini ![[vscode-in-project-folder.png]]
+ - Kalau berhasil, harusnya tertulis nama folder kalian, kayak di foto ini ![VSCode in project folder](../../foto/meet1/vscode-in-project-folder.png)
 
 ## Bikin file index.html
-- Klik tombol ini untuk bikin sebuah file, lalu kasih nama `index.html` ![[vscode-buttons.png]]
-- Kalau udah jadi, harusnya muncul kayak begini ![[vscode-index-html-created.png]]
+- Klik tombol ini untuk bikin sebuah file, lalu kasih nama `index.html` ![VSCode buttons](../../foto/meet1/vscode-buttons.png)
+- Kalau udah jadi, harusnya muncul kayak begini ![Index HTML created in VSCode](../../foto/meet1/vscode-index-html-created.png)
 ## Mulai ngoding
-- Di editor nya, ketik `!` lalu tekan enter di keyboard. Ini akan membuat struktur dasar html. ![[html-scaffold.png]]
-- Kalau sudah, seharusnya menjadi seperti ini ![[html-scaffold-result.png]]
+- Di editor nya, ketik `!` lalu tekan enter di keyboard. Ini akan membuat struktur dasar html. ![HTML scaffold shortcut](../../foto/meet1/html-scaffold.png)
+- Kalau sudah, seharusnya menjadi seperti ini ![Hasil struktur HTML otomatis](../../foto/meet1/html-scaffold-result.png)
 - Jangan lupa untuk save file kalian setiap kali membuat perubahan 
 	- Tekan `CTRL+S` di keyboard, atau klik `File` -> `Save`
 	- Kalau masih ada buletan di sebelah nama file kalian, berarti file nya belum ke save
@@ -58,7 +58,7 @@ Misalnya disini, kita bikin folder namanya `first-website` di `/Documents/Ngodin
 	- "Struktur" HTML di definisikan dengan `tag`, contohnya yang kalian bisa lihat adalah tag `<body></body>`
 	- Kalau kalian sudah belajar alpro, ini mirip kayak kurung kurawal `{}`
 	- Untuk menuslikan teks, kita bisa gunakan tag `<p></p>` yaitu tag paragraph. 
-	- Berikut contoh hasilnya ![[html-name-p.png]]
+	- Berikut contoh hasilnya ![Contoh penulisan nama di HTML](../../foto/meet1/html-name-p.png)
 	- Sekali lagi, jangan lupa untuk save file kalian
 
 ## Melihat website kita
@@ -67,10 +67,10 @@ Misalnya disini, kita bikin folder namanya `first-website` di `/Documents/Ngodin
 	- Cara yang paling mudah adalah dengan double click `index.html`, ini akan membuka file html kita di browser
 	- Kekurangan dari metode ini adalah jika kita mengubah isi dari index.html, yang di browser tidak ikut berubah. Melainkan harus dibuka lagi `index.html` yang udah diubah isinya itu
 - Menggunakan extension di vscode bernama `Live Server`
-	- Untuk metode ini, kita perlu install extension di vscode. Navigasi sidebar supaya berada di tab extensions, lalu search `Live Server`, lalu klik install ![[vscode-install-live-server.png]]
-	- Kalau udah, kembali ke file `index.html`, lalu tekan tombol `Go Live` di pojok kanan bawah ![[go-live-button.png]]
-	- Kalau sudah, akan muncul pesan seperti ini ![[live-server-started.png]]
-	- Website kita juga akan otomatis terbuka di browser kita ![[live-server-website.png]]
+	- Untuk metode ini, kita perlu install extension di vscode. Navigasi sidebar supaya berada di tab extensions, lalu search `Live Server`, lalu klik install ![Install Live Server di VSCode](../../foto/meet1/vscode-install-live-server.png)
+	- Kalau udah, kembali ke file `index.html`, lalu tekan tombol `Go Live` di pojok kanan bawah ![Tombol Go Live](../../foto/meet1/go-live-button.png)
+	- Kalau sudah, akan muncul pesan seperti ini ![Live Server started message](../../foto/meet1/live-server-started.png)
+	- Website kita juga akan otomatis terbuka di browser kita ![Website opened by Live Server](../../foto/meet1/live-server-website.png)
 	- Jika ingin menghentikan live server, tinggal klik lagi tombol `Go Live` tadi
 
 ## Menuliskan perkenalan di website kita
@@ -79,4 +79,5 @@ Misalnya disini, kita bikin folder namanya `first-website` di `/Documents/Ngodin
 - Tag ini berfungsi sebagai Heading, misalnya judul dari sebuah artikel
 - Coba tuliskan "Halo teman teman!" menggunakan tag `h1`
 - Kemudian lanjutkan dengan menuliskan kalimat perkenalan dengan tag `p`
-- Kira kira perlu kode seperti apa untuk menampilkan ini? ![[html-finished.png]]
+ - Kemudian lanjutkan dengan menuliskan kalimat perkenalan dengan tag `p`
+ - Kira kira perlu kode seperti apa untuk menampilkan ini? ![Hasil akhir HTML](../../foto/meet1/html-finished.png)
